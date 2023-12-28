@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillSync</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="intro">
+        <h2 id="logo"> SkillSync</h2>
+        <h1 id="welcome">Welcome to SkillSync <span>Your Gateway to Career Success!</h1>
+    </div>
+
+    <div class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At SkillSync, we believe in empowering individuals to reach their career goals by providing personalized insights and guidance. Whether you're a recent graduate, a seasoned professional looking to pivot, or anyone in between, our platform is designed to help you identify the skills that matter most for your desired job.</p>
+        </div>  
+    </div>
+
+    <div class="search">
+        <label for="job">Job Title:</label><br>
+        <input type="text" id="job" name="job" placeholder="Software Engineer"><br>
+        <input type="submit" value="Find Jobs">
+    </div>
+
+
+    <section>
+        <label for="locationID">Location Id</label>
+        <input type="text" id="locationID" name="locationID" placeholder="100025096">
+        <label for="jtype">Job Type</label>
+        <input name="jtype" list="jtypes" placeholder="Job Type">
+        <datalist id="jtypes">
+            <option value="Full Time" id="fullTime">
+            <option value= "Part Time" id="partTime">
+            <option value="Contract" id="contract">
+            <option value="Internship" id="internship">
+        </datalist>
+        <label for="company">Company</label>
+        <input type="text" name="company" placeholder="Company Id">
+    </section>
+    
+</body>
+</html>
