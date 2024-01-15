@@ -193,10 +193,12 @@ body::-webkit-scrollbar {
     box-sizing: border-box;
 }
 
+/*
 button:hover{
     border: 5px solid #ab1fde;
     box-shadow: 0 0 40px #ab1fde, inset 0 0 40px #ab1fde;
 }
+*/
 
 .c{
     position: sticky;
